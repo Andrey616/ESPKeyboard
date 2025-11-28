@@ -49,6 +49,19 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+<<<<<<< HEAD
+=======
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+>>>>>>> testDataBase
           "imports": [
             "net461",
             "net462",
