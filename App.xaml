@@ -108,7 +108,7 @@
 		<Style x:Key="ButtonApp" TargetType="Button">
 			<Setter Property="Content" Value="App"/>
 			<Setter Property="HorizontalAlignment" Value="Center"/>
-			<Setter Property="Margin" Value="300,0,0,0"/>
+			<Setter Property="Margin" Value="300,0,0,30"/>
 			<Setter Property="VerticalAlignment" Value="Center"/>
 			<Setter Property="Width" Value="70"/>
 			<Setter Property="Height" Value="40"/>
@@ -123,7 +123,7 @@
         <Style x:Key="ButtonEdit" TargetType="Button">
             <Setter Property="Content" Value="Edit Macros"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
-            <Setter Property="Margin" Value="300,130,0,0"/>
+            <Setter Property="Margin" Value="300,50,0,0"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="Width" Value="70"/>
             <Setter Property="Height" Value="40"/>
@@ -132,6 +132,20 @@
             <Setter Property="Opacity" Value="0.5"/>
             <Setter Property="FontWeight" Value="Bold"/>
 
+        </Style>
+
+        <!-- Стиль для ButtonExport -->
+        <Style x:Key="ButtonExport" TargetType="Button">
+            <Setter Property="Content" Value="Export BD"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="300,130,0,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="70"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="Opacity" Value="0.5"/>
+            <Setter Property="FontWeight" Value="Bold"/>
         </Style>
 
         <!-- Стиль для DataGrid -->
@@ -155,6 +169,9 @@
             <Setter Property="Background" Value="Gray"/>
             <Setter Property="FontWeight" Value="Bold"/>
         </Style>
+
+
+        
 
 
 

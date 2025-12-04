@@ -39,6 +39,8 @@ namespace ESP_Keyboard
 
         }
 
+        public static event Action DataUpdated;
+
         private void SaveDataBase(object sender, RoutedEventArgs e)
         {
             var viewModel = (MainViewModel)DataContext; // Получаем ViewModel
@@ -51,6 +53,7 @@ namespace ESP_Keyboard
                 else // Новые
                     dbService.AddMacro(macro);
             }
+            DataUpdated?.Invoke();
         }
 
         private void DeleteMacro(object sender, RoutedEventArgs e)
