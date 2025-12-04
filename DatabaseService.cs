@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.Sqlite;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
@@ -202,6 +203,24 @@ namespace YourProject.Services
             command.CommandText = "DELETE FROM Macros WHERE Id = $id";
             command.Parameters.AddWithValue("$id", id);
             command.ExecuteNonQuery();
+        }
+
+        public void ExportForESP(string filePath)
+        {
+            var macros = GetMacros();
+
+            // Выбираем только нужные поля для ESP
+            var espConfig = macros.Select(m => new
+            {
+                id = m.Id,
+                keys = m.KeyCombination
+            }).ToList();
+
+            // Сериализуем в JSON
+            string json = JsonConvert.SerializeObject(espConfig, Formatting.Indented);
+
+            // Сохраняем файл
+            File.WriteAllText(filePath, json);
         }
     }
 }

@@ -1,4 +1,8 @@
-﻿using System.Text;
+﻿using Microsoft.Win32;
+using Newtonsoft.Json;
+using System.IO;
+using System.Linq;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml;
+using YourProject.Services;
 using YourProject.Services;
 
 namespace ESP_Keyboard
@@ -20,7 +26,9 @@ namespace ESP_Keyboard
 	{
 		public MainWindow()
 		{
+
 			InitializeComponent();
+			EditorDataBase.DataUpdated += OnDataUpdated;
 			LoadMacros();
 			
 		}
@@ -29,10 +37,21 @@ namespace ESP_Keyboard
 		{
 			LoadMacros();
 
-        }
+		}
 
 		private ComboBox[] comboBoxes;
 
+		private void OnDataUpdated()
+		{
+			Dispatcher.Invoke(() => LoadMacros()); // Перезагрузка
+		}
+
+		protected override void OnClosed(EventArgs e)
+		{
+			EditorDataBase.DataUpdated -= OnDataUpdated; // Отписка
+			base.OnClosed(e);
+		}
+		
 		private void LoadMacros()
 		{
 
@@ -47,12 +66,28 @@ namespace ESP_Keyboard
 			}
 
 		}
-        private void OpenEditor_Click(object sender, RoutedEventArgs e)
+		private void OpenEditor_Click(object sender, RoutedEventArgs e)
+		{
+			EditorDataBase editor = new EditorDataBase();
+			editor.Left = this.Left + 100;
+			editor.Top = this.Top + 50;
+			editor.Show();
+		}
+
+		
+
+        private void Export_Click(object sender, RoutedEventArgs e)
         {
-            EditorDataBase editor = new EditorDataBase();
-            editor.Left = this.Left + 100;
-            editor.Top = this.Top + 50;
-            editor.Show();
+            var saveDialog = new SaveFileDialog();
+            saveDialog.Filter = "JSON files (*.json)|*.json";
+
+            if (saveDialog.ShowDialog() == true)
+            {
+                var dbService = new DatabaseService();
+                dbService.ExportForESP(saveDialog.FileName);
+                MessageBox.Show("Экспорт завершен!");
+            }
         }
+
     }
 }
