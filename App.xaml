@@ -5,8 +5,13 @@
 			 StartupUri="MainWindow.xaml">
 	<Application.Resources>
 
+<<<<<<< HEAD
         
         <!-- Стиль для MainWindow -->
+=======
+		
+		<!-- Стиль для MainWindow -->
+>>>>>>> fff53c6
 		<Style TargetType="{x:Type Grid}">
 			<Setter Property="Background" Value="#191A1A"/>
 		</Style>
@@ -39,7 +44,11 @@
 			<Setter Property="BorderBrush" Value="Gray"/>
 			<Setter Property="BorderThickness" Value="0"/>
 			<Setter Property="Padding" Value="10"/>
+<<<<<<< HEAD
 			<Setter Property="Margin" Value="300,0,00,98"/>
+=======
+			<Setter Property="Margin" Value="300,0,0,137"/>
+>>>>>>> fff53c6
 			<Setter Property="HorizontalAlignment" Value="Center"/>
 			<Setter Property="VerticalAlignment" Value="Center"/>
 		</Style>
@@ -78,7 +87,13 @@
 			<Setter Property="HorizontalAlignment" Value="Center"/>
 			<Setter Property="VerticalAlignment" Value="Center"/>
 		</Style>
+<<<<<<< HEAD
 
+=======
+		
+		
+		
+>>>>>>> fff53c6
 		<!-- Стиль для ComboBoxBut -->
 		<Style TargetType="ComboBox">
 			<Setter Property="Width" Value="80"/>
@@ -90,6 +105,7 @@
 			<Setter Property="Background" Value="Black"/>
 			<Setter Property="BorderBrush" Value="Black"/>
 			<Setter Property="Opacity" Value="0.5"/>
+<<<<<<< HEAD
             <Setter Property="ItemTemplate">
                 <Setter.Value>
                     <DataTemplate>
@@ -99,21 +115,102 @@
             </Setter>
             
         </Style>
+=======
+			<Setter Property="ItemTemplate">
+				<Setter.Value>
+					<DataTemplate>
+						<TextBlock Text="{Binding KeyCombination}" TextWrapping="Wrap" 
+									ToolTip="{Binding Description}"/>
+					</DataTemplate>
+				</Setter.Value>
+			</Setter>
+			
+
+		</Style>
+>>>>>>> fff53c6
 
 		<!-- Стиль для ButtonApp -->
 		<Style x:Key="ButtonApp" TargetType="Button">
 			<Setter Property="Content" Value="App"/>
 			<Setter Property="HorizontalAlignment" Value="Center"/>
+<<<<<<< HEAD
 			<Setter Property="Margin" Value="300,90,0,0"/>
+=======
+			<Setter Property="Margin" Value="300,0,0,30"/>
+>>>>>>> fff53c6
 			<Setter Property="VerticalAlignment" Value="Center"/>
 			<Setter Property="Width" Value="70"/>
 			<Setter Property="Height" Value="40"/>
 			<Setter Property="BorderThickness" Value="1"/>
 			<Setter Property="BorderBrush" Value="Gray"/>
+<<<<<<< HEAD
 			<Setter Property="Opacity" Value="0.5"/>
+=======
+			<Setter Property="Opacity" Value="0.7"/>
+>>>>>>> fff53c6
 			<Setter Property="FontWeight" Value="Bold"/>
 
 		</Style>
 
+<<<<<<< HEAD
 	</Application.Resources>
+=======
+        <!-- Стиль для ButtonEdit -->
+        <Style x:Key="ButtonEdit" TargetType="Button">
+            <Setter Property="Content" Value="Edit Macros"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="300,50,0,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="70"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="Opacity" Value="0.5"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+
+        </Style>
+
+        <!-- Стиль для ButtonExport -->
+        <Style x:Key="ButtonExport" TargetType="Button">
+            <Setter Property="Content" Value="Export BD"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="300,130,0,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="70"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="Opacity" Value="0.5"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        <!-- Стиль для DataGrid -->
+        <Style x:Key="DataGrid" TargetType="DataGrid">
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="Opacity" Value="0.5"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        <!-- Стиль для ButtonSaveDataBase -->
+        <Style x:Key="ButtonSaveDataBase" TargetType="Button">
+            <Setter Property="Content" Value="Save"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Margin" Value="0,0,17,7"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="Width" Value="70"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="DarkGray"/>
+            <Setter Property="Background" Value="Gray"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+
+        
+
+
+
+    </Application.Resources>
+>>>>>>> fff53c6
 </Application>

@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 ﻿using System.Text;
+=======
+﻿using Microsoft.Win32;
+using Newtonsoft.Json;
+using System.IO;
+using System.Linq;
+using System.Text;
+>>>>>>> fff53c6
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,6 +16,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+<<<<<<< HEAD
+=======
+using System.Xml;
+using YourProject.Services;
+>>>>>>> fff53c6
 using YourProject.Services;
 
 namespace ESP_Keyboard
@@ -20,18 +33,42 @@ namespace ESP_Keyboard
 	{
 		public MainWindow()
 		{
+<<<<<<< HEAD
 			InitializeComponent();
+=======
+
+			InitializeComponent();
+			EditorDataBase.DataUpdated += OnDataUpdated;
+>>>>>>> fff53c6
 			LoadMacros();
 			
 		}
 
 		private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
 		{
+<<<<<<< HEAD
+=======
+			LoadMacros();
+>>>>>>> fff53c6
 
 		}
 
 		private ComboBox[] comboBoxes;
 
+<<<<<<< HEAD
+=======
+		private void OnDataUpdated()
+		{
+			Dispatcher.Invoke(() => LoadMacros()); // Перезагрузка
+		}
+
+		protected override void OnClosed(EventArgs e)
+		{
+			EditorDataBase.DataUpdated -= OnDataUpdated; // Отписка
+			base.OnClosed(e);
+		}
+		
+>>>>>>> fff53c6
 		private void LoadMacros()
 		{
 
@@ -45,9 +82,37 @@ namespace ESP_Keyboard
 				comboBox.SelectedValuePath = "Id";
 			}
 
+<<<<<<< HEAD
 
 
 			
 		}
 	}
+=======
+		}
+		private void OpenEditor_Click(object sender, RoutedEventArgs e)
+		{
+			EditorDataBase editor = new EditorDataBase();
+			editor.Left = this.Left + 100;
+			editor.Top = this.Top + 50;
+			editor.Show();
+		}
+
+		
+
+        private void Export_Click(object sender, RoutedEventArgs e)
+        {
+            var saveDialog = new SaveFileDialog();
+            saveDialog.Filter = "JSON files (*.json)|*.json";
+
+            if (saveDialog.ShowDialog() == true)
+            {
+                var dbService = new DatabaseService();
+                dbService.ExportForESP(saveDialog.FileName);
+                MessageBox.Show("Экспорт завершен!");
+            }
+        }
+
+    }
+>>>>>>> fff53c6
 }

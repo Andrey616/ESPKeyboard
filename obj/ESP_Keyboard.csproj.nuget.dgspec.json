@@ -50,6 +50,13 @@
               "target": "Package",
               "version": "[10.0.0, )"
             },
+<<<<<<< HEAD
+=======
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+>>>>>>> fff53c6
             "System.Data.SQLite": {
               "target": "Package",
               "version": "[2.0.2, )"
