@@ -1,12 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Text;
 =======
+=======
+>>>>>>> temp-branch
 ﻿using Microsoft.Win32;
 using Newtonsoft.Json;
 using System.IO;
 using System.Linq;
 using System.Text;
+<<<<<<< HEAD
 >>>>>>> fff53c6
+=======
+>>>>>>> temp-branch
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -17,10 +23,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using System.Xml;
 using YourProject.Services;
 >>>>>>> fff53c6
+=======
+using System.Xml;
+using YourProject.Services;
+>>>>>>> temp-branch
 using YourProject.Services;
 
 namespace ESP_Keyboard
@@ -34,12 +45,18 @@ namespace ESP_Keyboard
 		public MainWindow()
 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
 			InitializeComponent();
 =======
 
 			InitializeComponent();
 			EditorDataBase.DataUpdated += OnDataUpdated;
 >>>>>>> fff53c6
+=======
+
+			InitializeComponent();
+			EditorDataBase.DataUpdated += OnDataUpdated;
+>>>>>>> temp-branch
 			LoadMacros();
 			
 		}
@@ -56,7 +73,10 @@ namespace ESP_Keyboard
 		private ComboBox[] comboBoxes;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> temp-branch
 		private void OnDataUpdated()
 		{
 			Dispatcher.Invoke(() => LoadMacros()); // Перезагрузка
@@ -68,7 +88,10 @@ namespace ESP_Keyboard
 			base.OnClosed(e);
 		}
 		
+<<<<<<< HEAD
 >>>>>>> fff53c6
+=======
+>>>>>>> temp-branch
 		private void LoadMacros()
 		{
 
@@ -87,9 +110,12 @@ namespace ESP_Keyboard
 
 			
 		}
+<<<<<<< HEAD
 	}
 =======
 		}
+=======
+>>>>>>> temp-branch
 		private void OpenEditor_Click(object sender, RoutedEventArgs e)
 		{
 			EditorDataBase editor = new EditorDataBase();

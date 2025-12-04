@@ -15,10 +15,14 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b491bd634f99c093a8b2376bd99056a1722856e")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6483668cee13dcc5666704943e80664b94da31f")]
 >>>>>>> fff53c6
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fff53c697eec93885b2ed00c12de98c60355796b")]
+>>>>>>> temp-branch
 [assembly: System.Reflection.AssemblyProductAttribute("ESP_Keyboard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ESP_Keyboard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

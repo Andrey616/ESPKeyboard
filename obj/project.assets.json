@@ -33,7 +33,10 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> temp-branch
       "Newtonsoft.Json/13.0.4": {
         "type": "package",
         "compile": {
@@ -47,7 +50,10 @@
           }
         }
       },
+<<<<<<< HEAD
 >>>>>>> fff53c6
+=======
+>>>>>>> temp-branch
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.11": {
         "type": "package",
         "dependencies": {
@@ -244,7 +250,10 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> temp-branch
     "Newtonsoft.Json/13.0.4": {
       "sha512": "pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
       "type": "package",
@@ -275,7 +284,10 @@
         "packageIcon.png"
       ]
     },
+<<<<<<< HEAD
 >>>>>>> fff53c6
+=======
+>>>>>>> temp-branch
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.11": {
       "sha512": "DC4nA7yWnf4UZdgJDF+9Mus4/cb0Y3Sfgi3gDnAoKNAIBwzkskNAbNbyu+u4atT0ruVlZNJfwZmwiEwE5oz9LQ==",
       "type": "package",
@@ -410,9 +422,13 @@
     "net8.0-windows7.0": [
       "Microsoft.Data.Sqlite >= 10.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "Newtonsoft.Json >= 13.0.4",
 >>>>>>> fff53c6
+=======
+      "Newtonsoft.Json >= 13.0.4",
+>>>>>>> temp-branch
       "System.Data.SQLite >= 2.0.2"
     ]
   },
@@ -466,12 +482,18 @@
             "version": "[10.0.0, )"
           },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> temp-branch
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.4, )"
           },
+<<<<<<< HEAD
 >>>>>>> fff53c6
+=======
+>>>>>>> temp-branch
           "System.Data.SQLite": {
             "target": "Package",
             "version": "[2.0.2, )"

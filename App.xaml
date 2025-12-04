@@ -134,10 +134,14 @@
 			<Setter Property="Content" Value="App"/>
 			<Setter Property="HorizontalAlignment" Value="Center"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<Setter Property="Margin" Value="300,90,0,0"/>
 =======
 			<Setter Property="Margin" Value="300,0,0,30"/>
 >>>>>>> fff53c6
+=======
+			<Setter Property="Margin" Value="300,0,0,30"/>
+>>>>>>> temp-branch
 			<Setter Property="VerticalAlignment" Value="Center"/>
 			<Setter Property="Width" Value="70"/>
 			<Setter Property="Height" Value="40"/>

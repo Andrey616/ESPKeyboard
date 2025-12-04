@@ -54,12 +54,18 @@
 		</Border>
 		<TextBox x:Name="TextBoxVersion" Grid.Column="1" Style="{StaticResource TextBoxVersion}"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<Button x:Name="ButtonApp" Grid.Column="1" Style="{StaticResource ButtonApp}"/>
 =======
 		<Button x:Name="ButtonApp" Style="{StaticResource ButtonApp}" />
         <Button x:Name="ButtonEdit" Style="{StaticResource ButtonEdit}"  Click="OpenEditor_Click"/>
         <Button x:Name="ButtonExport" Style="{StaticResource ButtonExport}" Click="Export_Click"/>
 >>>>>>> fff53c6
+=======
+		<Button x:Name="ButtonApp" Style="{StaticResource ButtonApp}" />
+        <Button x:Name="ButtonEdit" Style="{StaticResource ButtonEdit}"  Click="OpenEditor_Click"/>
+        <Button x:Name="ButtonExport" Style="{StaticResource ButtonExport}" Click="Export_Click"/>
+>>>>>>> temp-branch
 
 
 

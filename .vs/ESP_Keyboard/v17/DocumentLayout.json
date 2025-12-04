@@ -4,6 +4,7 @@
   "Documents": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{D9ED5930-B470-4BE3-B2CC-D453737FC727}|ESP_Keyboard.csproj|d:\\gitkraken\\espkeyboard\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D9ED5930-B470-4BE3-B2CC-D453737FC727}|ESP_Keyboard.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -24,14 +25,23 @@
 >>>>>>> fff53c6
     },
     {
+=======
+>>>>>>> temp-branch
       "AbsoluteMoniker": "D:0:0:{D9ED5930-B470-4BE3-B2CC-D453737FC727}|ESP_Keyboard.csproj|d:\\gitkraken\\espkeyboard\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9ED5930-B470-4BE3-B2CC-D453737FC727}|ESP_Keyboard.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{D9ED5930-B470-4BE3-B2CC-D453737FC727}|ESP_Keyboard.csproj|d:\\gitkraken\\espkeyboard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D9ED5930-B470-4BE3-B2CC-D453737FC727}|ESP_Keyboard.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
 =======
+=======
+      "AbsoluteMoniker": "D:0:0:{D9ED5930-B470-4BE3-B2CC-D453737FC727}|ESP_Keyboard.csproj|d:\\gitkraken\\espkeyboard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9ED5930-B470-4BE3-B2CC-D453737FC727}|ESP_Keyboard.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+>>>>>>> temp-branch
       "AbsoluteMoniker": "D:0:0:{80172BB9-3961-452E-97FE-257DF5C8267D}|Services{80172BB9-3961-452E-97FE-257DF5C8267D}|D:\\GitKraken\\ESPKeyboard\\DatabaseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80172BB9-3961-452E-97FE-257DF5C8267D}|Services{80172BB9-3961-452E-97FE-257DF5C8267D}|solutionrelative:DatabaseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,7 +72,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D9ED5930-B470-4BE3-B2CC-D453737FC727}|ESP_Keyboard.csproj|d:\\gitkraken\\espkeyboard\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9ED5930-B470-4BE3-B2CC-D453737FC727}|ESP_Keyboard.csproj|solutionrelative:mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< HEAD
 >>>>>>> fff53c6
+=======
+>>>>>>> temp-branch
     }
   ],
   "DocumentGroupContainers": [
@@ -71,6 +84,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
           "DockedWidth": 200,
           "SelectedChildIndex": 4,
@@ -137,20 +151,31 @@
               "$type": "Document",
               "DocumentIndex": 3,
 >>>>>>> fff53c6
+=======
+          "DockedWidth": 207,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+>>>>>>> temp-branch
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\GitKraken\\ESPKeyboard\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
               "ToolTip": "D:\\GitKraken\\ESPKeyboard\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-26T19:08:06.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T19:08:06.992Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
 <<<<<<< HEAD
 =======
+=======
+              "DocumentIndex": 0,
+>>>>>>> temp-branch
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\GitKraken\\ESPKeyboard\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -171,8 +196,7 @@
               "RelativeToolTip": "EditorDataBase.xaml.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:32:27.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:32:27.249Z"
             },
             {
               "$type": "Document",
@@ -184,8 +208,7 @@
               "RelativeToolTip": "DatabaseService.cs",
               "ViewState": "AgIAAMAAAAAAAAAAAADwv+EAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:24:21.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T08:24:21.844Z"
             },
             {
               "$type": "Document",
@@ -226,7 +249,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
+<<<<<<< HEAD
 >>>>>>> fff53c6
+=======
+>>>>>>> temp-branch
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\GitKraken\\ESPKeyboard\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AssemblyInfo.cs",
@@ -235,8 +261,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "WhenOpened": "2025-11-26T19:08:05.619Z",
 =======
+=======
+>>>>>>> temp-branch
               "WhenOpened": "2025-11-26T19:08:05.619Z"
             }
           ]
@@ -247,7 +276,11 @@
           "Children": [
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 1,
+>>>>>>> temp-branch
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\GitKraken\\ESPKeyboard\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -266,9 +299,13 @@
               "ToolTip": "D:\\GitKraken\\ESPKeyboard\\EditorDataBase.xaml",
               "RelativeToolTip": "EditorDataBase.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+<<<<<<< HEAD
               "WhenOpened": "2025-11-27T13:28:32.357Z",
 >>>>>>> fff53c6
               "EditorCaption": ""
+=======
+              "WhenOpened": "2025-11-27T13:28:32.357Z"
+>>>>>>> temp-branch
             }
           ]
         }

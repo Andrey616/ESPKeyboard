@@ -11,9 +11,13 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
 >>>>>>> fff53c6
+=======
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+>>>>>>> temp-branch
     <PackageReference Include="System.Data.SQLite" Version="2.0.2" />
   </ItemGroup>
 
